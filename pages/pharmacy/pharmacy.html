@@ -1,0 +1,35 @@
+<div class="container-new">
+	 
+	<h1>Pharmacy</h1>
+	{% if variables.land_decor === "1" %}
+	<a href="#page-sample" class="btn btn-circle page-scroll">
+		<i class="fa fa-angle-double-down animated"></i>
+	</a>
+	{% endif %}
+	{% if variables.land_decor === "2" %}
+	<a href="#page-sample" class="btn btn-circle page-scroll">
+		<img src="/rohovskanika/img/free-icon-down-arrow-656777.png">
+	</a>
+	{% endif %}
+	{% if variables.land_decor === "3" %}
+	<a href="#page-sample" class="btn btn-circle page-scroll">
+		<img src="/rohovskanika/img/free-icon-down-chevron-8213476.png">
+	</a>
+	{% endif %}
+</div>
+</div>
+<!-- Page Sample Section -->
+<section id="page-sample">
+<div class="container content-section text-center">
+	<div class="row">
+		<h2 class="text-center">{{{pharmacy.name}}}</h1>
+		</h2>
+		<div class="col-lg-8 col-lg-offset-2">
+				<div class="card">
+					<img src="{{{pharmacy.thumb}}}" alt="{{{pharmacy.name}}}" class="img-rounded">
+					<h4>{{{pharmacy.description}}}</h4>
+				</div>
+		</div>
+	</div>
+</div>
+</section>

@@ -1,0 +1,46 @@
+<div class="container-new">
+	<div>
+		<h1>Drugs</h1>
+		{% if variables.land_decor === "1" %}
+		<a href="#page-sample" class="btn btn-circle page-scroll">
+			<i class="fa fa-angle-double-down animated"></i>
+		</a>
+		{% endif %}
+		{% if variables.land_decor === "2" %}
+		<a href="#page-sample" class="btn btn-circle page-scroll">
+			<img src="/rohovskanika/img/free-icon-down-arrow-656777.png">
+		</a>
+		{% endif %}
+		{% if variables.land_decor === "3" %}
+		<a href="#page-sample" class="btn btn-circle page-scroll">
+			<img src="/rohovskanika/img/free-icon-down-chevron-8213476.png">
+		</a>
+		{% endif %}
+	</div>
+</div>
+<!-- Page Sample Section -->
+<section id="page-sample">
+	<div class="polosar">
+		<div class="container content-section text-center">
+			<div class="row">
+				<h3 class="text-center">{{{drug_description}}}</h3>
+				{% for drug in drugs %}
+				<div class="img-slider">
+					<div class="col-md-4">
+						<a href="/drug/{{{drug.id}}}">
+							<div class="card">
+								<img src="{{{drug.thumb}}}" alt="{{{drug.name}}}" width="700px"
+									class="img-rounded">
+								<div class="card-body">
+									<h5 class="card-title">{{{drug.name}}}</h5>
+									<p class="card-text">{{{drug.short}}} </p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>

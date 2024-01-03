@@ -1,0 +1,334 @@
+<header class="intro">
+	<div class="intro-body">
+		<div class="intro-all">
+			<p class="intro-text">
+				{{{variables.land_head_text2}}}
+			</p>
+		</div>
+	</div>
+	</div>
+</header>
+
+
+<div class="polosa">
+	<div class="container content-section text-center">
+		<h3>Articles</h3>
+		<div class="row">
+			{% for article in articles %}
+			<div class="col-md-4">
+				<a href="/articles">
+					<div class="card">
+						<img src="{{{article.thumb}}}" alt="{{{article.name}}}">
+						<div class="card-body">
+							<h4 class="card-title">{{{articles.name}}}</h4>
+							<p class="text-as">{{{article.short}}} </p>
+						</div>
+					</div>
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<div class="polosa">
+	<div class="container content-section text-center">
+		<h3> Portfolio </h3>
+		<div class="owl-carousel owl-theme owl-courses">
+			{% for portfolio in portfolios %}
+			<a href="/portfolios">
+				<div class="item">
+					<div class="courses-thumb">
+						<div class="courses-top">
+							<div class="courses-image">
+								<img src="{{{portfolio.thumb}}}" alt="{{{portfolio.name}}}">
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<div class="polosa">
+	<div class="container content-section text-center">
+		<h3>Products</h3>
+		<div class="row">
+			{% for product in products %}
+			<div class="col-md-4">
+				<a href="/products">
+					<div class="card">
+						<img src="{{{product.thumb}}}" alt="{{{product.name}}}">
+						<div class="card-body">
+							<h5 class="card-title">{{{products.name}}}</h5>
+							<p class="text-sas">{{{product.short}}} </p>
+						</div>
+					</div>
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+
+<div class="polosa" id="courses">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<h3>Services</h3>
+				</div>
+
+				<div class="owl-carousel owl-theme owl-courses">
+					<div class="col-md-12 col-sm-12">
+						<div class="item">
+							<div class="courses-thumb">
+								<div class="courses-top">
+									<div class="courses-image">
+										<img src="{{{variables.thumb_service4}}}" class="img-responsive" alt="">
+									</div>
+								</div>
+
+								<div class="courses-detail">
+									<h4><a href="#">{{{variables.role_4}}}</a></h4>
+									<p>{{{variables.description_role4}}}</p>
+								</div>
+
+								<div class="courses-info">
+									<div class="courses-author">
+										<img src="{{{variables.thumb_people4}}}" class="img-responsive" alt="">
+										<span>{{{variables.name_people4}}}</span>
+									</div>
+									<div class="courses-price">
+										<a href="#"><span>{{{variables.price_4}}}</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12">
+						<div class="item">
+							<div class="courses-thumb">
+								<div class="courses-top">
+									<div class="courses-image">
+										<img src="{{{variables.thumb_service2}}}" class="img-responsive" alt="">
+									</div>
+								</div>
+
+								<div class="courses-detail">
+									<h4><a href="#">{{{variables.role_2}}}</a></h4>
+									<p>{{{variables.description_role2}}}</p>
+								</div>
+
+								<div class="courses-info">
+									<div class="courses-author">
+										<img src="{{{variables.thumb_people2}}}" class="img-responsive" alt="">
+										<span>{{{variables.name_people2}}}</span>
+									</div>
+									<div class="courses-price">
+										<a href="#"><span>{{{variables.price_2}}}</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12">
+						<div class="item">
+							<div class="courses-thumb">
+								<div class="courses-top">
+									<div class="courses-image">
+										<img src="{{{variables.thumb_service3}}}" class="img-responsive" alt="">
+									</div>
+								</div>
+
+								<div class="courses-detail">
+									<h4><a href="#">{{{variables.role_3}}}</a></h4>
+									<p>{{{variables.description_role3}}}</p>
+								</div>
+
+								<div class="courses-info">
+									<div class="courses-author">
+										<img src="{{{variables.thumb_people3}}}" class="img-responsive" alt="">
+										<span>{{{variables.name_people3}}}</span>
+									</div>
+									<div class="courses-price free">
+										<a href="#"><span>{{{variables.price_3}}}</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12">
+						<div class="item">
+							<div class="courses-thumb">
+								<div class="courses-top">
+									<div class="courses-image">
+										<img src="{{{variables.thumb_service1}}}" class="img-responsive" alt="">
+									</div>
+								</div>
+
+								<div class="courses-detail">
+									<h4><a href="#">{{{variables.role_1}}}</a></h4>
+									<p>{{{variables.description_role1}}}</p>
+								</div>
+
+								<div class="courses-info">
+									<div class="courses-author">
+										<img src="{{{variables.thumb_people1}}}" class="img-responsive" alt="">
+										<span>{{{variables.name_people1}}}</span>
+									</div>
+									<div class="courses-price">
+										<a href="#"><span>{{{variables.price_1}}}</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="polosa">
+	<div class="container content-section text-center">
+		<h3>Drugs</h3>
+		<div class="row">
+			{% for drug in drugs %}
+			<div class="col-md-4">
+				<a href="/drugs">
+					<div class="card">
+						<img src="{{{drug.thumb}}}" alt="{{{drug.name}}}" >
+						<div class="card-body">
+							<h5 class="card-title">{{{drugs.name}}}</h5>
+							<p class="text-sas">{{{drug.short}}} </p>
+						</div>
+					</div>
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	</div>
+	<div class="polosa">
+		<div class="container content-section text-center">
+			<h3>Hospital</h3>
+			<div class="row">
+				{% for hospital in hospitals %}
+				<div class="col-md-4">
+					<a href="/hospitals">
+						<div class="card">
+							<img src="{{{hospital.thumb}}}" alt="{{{hospital.name}}}" >
+							<div class="card-body">
+								<h5 class="card-title">{{{hospitals.name}}}</h5>
+								<p class="text-sas">{{{hospital.short}}} </p>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		</div>
+
+<!-- TEAM -->
+<div class="polosa">
+	<div class="container content-section text-center">
+		<h3> our masters </h3>
+		<div class="owl-carousel owl-theme owl-courses">
+			<div class="item">
+				<div class="courses-thumb">
+					<div class="courses-top">
+						<div class="courses-image">
+							<img src="{{{variables.thumb_people1}}}" class="img-responsive" alt="">
+						</div>
+						<div class="team-info">
+							<h3>{{{variables.name_people1}}}</h3>
+							<span>{{{variables.role_1}}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="courses-thumb">
+					<div class="courses-top">
+						<div class="courses-image">
+							<img src="{{{variables.thumb_people2}}}" class="img-responsive" alt="">
+						</div>
+						<div class="team-info">
+							<h3>{{{variables.name_people2}}}</h3>
+							<span>{{{variables.role_2}}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="courses-thumb">
+					<div class="courses-top">
+						<div class="courses-image">
+							<img src="{{{variables.thumb_people3}}}" class="img-responsive" alt="">
+						</div>
+						<div class="team-info">
+							<h3>{{{variables.name_people3}}}</h3>
+							<span>{{{variables.role_3}}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="courses-thumb">
+					<div class="courses-top">
+						<div class="courses-image">
+							<img src="{{{variables.thumb_people4}}}" class="img-responsive" alt="">
+						</div>
+						<div class="team-info">
+							<h3>{{{variables.name_people4}}}</h3>
+							<span>{{{variables.role_4}}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>
+	</div>
+</div>
+<!-- Contact Section -->
+<section id="contact">
+	<div class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p>
+					{{{variables.contact_text}}}
+				</p>
+				<p>
+					<i><a href="mailto:waw@gmail.com"
+							style="border-bottom:1px dashed #ccc;">{{{variables.email_text}}}</a></i>
+				</p>
+				<ul class="list-inline banner-social-buttons">
+					<li>
+						<a href="{{{variables.link_telegram}}}" class="btn btnghost btn-lg"><span
+								class="network-name">Telegram</span></a>
+					</li>
+					<li>
+						<a href="{{{variables.link_facebook}}}" class="btn btnghost btn-lg"><span
+								class="network-name">Facebook</span></a>
+					</li>
+					<li>
+						<a href="{{{variables.link_instagram}}}" class="btn btnghost btn-lg"><span
+								class="network-name">Instagram</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

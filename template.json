@@ -1,0 +1,291 @@
+{
+	"title": "Welcome to waw Template",
+	"description": "description",
+	"keywords": "keywords",
+	"prefix": "/rohovskanika",
+	"picture": "picture",
+	"author": "author",
+	"moderators": [],
+	"scss": "scss/index.scss",
+	"variables": {
+		"intro_bg": "rohovskanika/img/ewawka_bg.jpg",
+		"primary_color": "#50B0BD",
+		"your_name": " ",
+		"land_decor": "1",
+		"ceo_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+		"logo_text": "rohovskanika/img/logo.png",
+		"design_name": "Design: NIKA R.",
+		"contact_text": " Don't forget to subscribe to our newsletters and social networks",
+		"email_text": "ceo@webart.work",
+		"link_instagram": "",
+		"link_facebook": "",
+		"link_telegram": "",
+		"land_head_text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.Lorem ipsum dolor sit amet",
+		"thumb_people1": "rohovskanika/img/people.jpg",
+		"thumb_people2": "rohovskanika/img/people.jpg",
+		"thumb_people3": "rohovskanika/img/people.jpg",
+		"thumb_people4": "rohovskanika/img/people.jpg",
+		"name_people1": "Mark Wilson",
+		"name_people2": "Catherine",
+		"name_people3": "JessieCa",
+		"name_people4": "Andrew Berti",
+		"role_1": "Service Role 1",
+		"role_2": "Service Role 2",
+		"role_3": "Service Role 3",
+		"role_4": "Service Role 4",
+		"description_role1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"description_role2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"description_role3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"description_role4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"price_1": "USD 25$",
+		"price_2": "USD 21$",
+		"price_3": "Free",
+		"price_4": "USD 29$",
+		"thumb_service1": "/rohovskanika/img/service.jpg",
+		"thumb_service2": "/rohovskanika/img/service.jpg",
+		"thumb_service3": "/rohovskanika/img/service.jpg",
+		"thumb_service4": "/rohovskanika/img/service.jpg",
+		"article_description":" ",
+		"product_description":" ",
+		"service_description":" ",
+		"drug_description":" ",
+		"hospital_description":" ",
+		"pharmacy_description":" ",
+		"portfolio_description":" "
+
+	},
+	"footer": {
+		"portfolios": [
+			{
+				"id": "/portfolio",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "portfolio"
+			},
+			{
+				"id": "/portfolio",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "portfolio"
+			},
+			{
+				"id": "/portfolio",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "portfolio"
+			}
+		],
+		"products": [
+			{
+				"id": "/product",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "product"
+			},
+			{
+				"id": "/product",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "product"
+			},
+			{
+				"id": "/product",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "product"
+			}
+		],
+		"services": [
+			{
+				"id": "/service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			},
+			{
+				"id": "/service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			},
+			{
+				"id": "/service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			}
+		],
+		"articles": [
+			{
+				"id": "/article",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "article"
+			},
+			{
+				"id": "/article",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "article"
+			},
+			{
+				"id": "/article",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "article"
+			}
+		],
+		"hospitals": [
+			{
+				"id": "service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			},
+			{
+				"id": "service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			},
+			{
+				"id": "service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			}
+		],
+		"drugs": [
+			{
+				"id": "drug",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "product"
+			},
+			{
+				"id": "drug",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "product"
+			},
+			{
+				"id": "drug",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "product"
+			}
+		],
+		"pharmacies": [
+			{
+				"id": "pharmacy",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			},
+			{
+				"id": "pharmacy",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			},
+			{
+				"id": "pharmacy",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "https://neryxomka.com/template/img/welcome.png",
+				"name": "service"
+			}
+		]
+	},
+	"categories_articles": [
+		{
+			"name": "Category One",
+			"tags": [
+				{
+					"name": "Tag one"
+				}
+			]
+		}
+	],
+	"categories_products": [
+		{
+			"name": "Category One",
+			"tags": [
+				{
+					"name": "Tag one"
+				}
+			]
+		}
+	],
+
+	"categories_drugs": [
+		{
+			"name": "Category One",
+			"tags": [
+				{
+					"name": "Tag one"
+				}
+			]
+		}
+	],
+	"categories_hospitals": [
+		{
+			"name": "Category One",
+			"tags": [
+				{
+					"name": "Tag one"
+				}
+			]
+		}
+	],
+	"categories_pharmacies": [
+		{
+			"name": "Category One",
+			"tags": [
+				{
+					"name": "Tag one"
+				}
+			]
+		}
+	],
+	"categories_portfolios": [
+		{
+			"name": "Category One",
+			"tags": [
+				{
+					"name": "Tag one"
+				}
+			]
+		}
+	],
+	"categories_services": [
+		{
+			"name": "Category One",
+			"tags": [
+				{
+					"name": "Tag one"
+				}
+			]
+		}
+	],
+	"tags": [
+		{
+			"name": "Tag Name",
+			"category": {
+				"name": "Category Name",
+				"group": "article"
+			}
+		}
+	]
+}
