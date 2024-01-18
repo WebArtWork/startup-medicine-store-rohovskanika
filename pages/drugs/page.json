@@ -7,7 +7,14 @@
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
 			"thumb": "https://neryxomka.com/template/img/welcome.png",
 			"name": "product"
-		}
+		},
+		{
+			"id": "",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "product"
+		},
 		{
 			"id": "",
 			"price": 1200,
@@ -15,13 +22,6 @@
 			"thumb": "https://neryxomka.com/template/img/welcome.png",
 			"name": "product"
 		}
-		{
-			"id": "",
-			"price": 1200,
-			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
-			"name": "product"
-		}
-	],
+	]
      
 }
